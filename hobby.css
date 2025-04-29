@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0ddd8;
+}
+.app-button {
+  text-align: center;
+}
+
+button {
+  padding: 4px;
+  background-color: #f7b1fc;
+  border: 1px solid #f0ddd8;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ecd4e0;
+  color: #ed7668;
+  border: 1px solid #ecd4e0;
+}
+
+.app-container {
+  font-family: monospace;
+  color: #b09ad9;
+  padding: 40px;
+  width: 700px;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.heading h1 {
+  font-size: 30px;
+}
+
+.heading p {
+  font-size: 15px;
+}
+
+img {
+  object-fit: cover;
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.app-details {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.app-details h5 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.app-details button {
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.app-details button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.app-details small {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
