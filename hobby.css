@@ -5,7 +5,11 @@
 }
 
 body {
-  background-color: #f0ddd8;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
   font-family: monospace;
 }
 
@@ -39,7 +43,13 @@ button:hover {
 }
 
 .app-container {
-  background-color: #000;
+  background: linear-gradient(
+    to top,
+    #0c3483 0%,
+    #a2b6df 100%,
+    #6b8cce 100%,
+    #a2b6df 100%
+  );
   color: #b09ad9;
   padding: 40px;
   width: 700px;
@@ -49,27 +59,22 @@ button:hover {
 }
 
 .dark .app-container {
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(0, 0, 0, 0.15) 100%
-    ),
-    radial-gradient(
-        at top center,
-        rgba(255, 255, 255, 0.4) 0%,
-        rgba(0, 0, 0, 0.4) 120%
-      )
-      #989898;
+  background: radial-gradient(
+    919px at 1.7% 6.1%,
+    rgb(41, 58, 76) 0%,
+    rgb(40, 171, 226) 100.2%
+  );
 }
 
 .heading {
   text-align: center;
   margin-bottom: 15px;
   line-height: 1.5;
+  color: navy;
 }
 
 .heading h1 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .heading p {
